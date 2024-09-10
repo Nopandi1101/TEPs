@@ -1,4 +1,6 @@
-- **TEP**: [89](https://github.com/ton-blockchain/TEPs/pull/89)
+- UQC53Sk3lkCm0E7kSejCsBk8z9f_Yf4ndp-MNNUjRhG5O0KV
+
+**TEP**: [89](https://github.com/ton-blockchain/TEPs/pull/89)
 - **title**: Discoverable Jettons Wallets
 - **status**: Active
 - **type**: Contract Interface

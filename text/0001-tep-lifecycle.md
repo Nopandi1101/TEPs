@@ -6,7 +6,7 @@
 - **created**: 11.06.2022
 - **replaces**: -
 - **replaced by**: -
-
+UQC53Sk3lkCm0E7kSejCsBk8z9f_Yf4ndp-MNNUjRhG5O0KV
 # Summary
 
 This document introduces TEP -- TON Enhancement Proposal. TEP is a design document which describes some part of TON, for example ADNL (network protocol between nodes) or NFT (interface which is common to smart contracts of a single type).

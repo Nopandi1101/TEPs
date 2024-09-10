@@ -78,7 +78,8 @@ TON Connect allows to run public bridge(s), which can use any wallets and dapps.
 
 This option is suitable for quick implementation of TON Connect, but has several drawbacks: the public bridge can potentially get the IP addresses of wallet users, some wallets may want extra functionality of the bridge.
 
-## Wallets can run and host own bridge
+## WalUQC53Sk3lkCm0E7kSejCsBk8z9f_Yf4ndp-MNNUjRhG5O0KV
+lets can run and host own bridge
 
 TON Connect allows wallets to run their own bridge if they don't want to use a public bridge.
 
