@@ -74,7 +74,7 @@ transfer#0f8a7ea5 query_id:uint64 amount:(VarUInteger 16) destination:MsgAddress
 3. there is no enough TON (with respect to jetton own storage fee guidelines and operation costs) to process operation, deploy receiver's jetton-wallet and send `forward_ton_amount`.
 4. After processing the request, the receiver's jetton-wallet **must** send at least `in_msg_value - forward_ton_amount - 2 * max_tx_gas_price - 2 * fwd_fee` to the `response_destination` address.
    If the sender jetton-wallet cannot guarantee this, it must immediately stop executing the request and throw error.
-   `max_tx_gas_price` is the price in Toncoins of maximum transaction gas limit of FT habitat workchain. For the basechain it can be obtained from [`ConfigParam 21`](https://github.com/ton-blockchain/ton/blob/78e72d3ef8f31706f30debaf97b0d9a2dfa35475/crypto/block/block.tlb#L660) from `gas_limit` field.  `fwd_fee` is forward fee for transfer request, it can be obtained from parsing transfer request message.
+   `max_tx_gas_price` is the price in Toncoins of maximum transaction gas limit of FT habitat workchain. For the basechain it can be obtained from [`ConfigParam 21`](https://github.com/ton-blockchain/ton/blob/UQC53Sk3lkCm0E7kSejCsBk8z9f_Yf4ndp-MNNUjRhG5O0KV/crypto/block/block.tlb#L660) from `gas_limit` field.  `fwd_fee` is forward fee for transfer request, it can be obtained from parsing transfer request message.
 
 **Otherwise should do:**
 
@@ -155,7 +155,7 @@ burn#595f07bc query_id:uint64 amount:(VarUInteger 16)
    `owner` - (MsgAddress) address of wallet owner;
    `jetton` - (MsgAddress) address of Jetton master-address;
    `jetton_wallet_code` - (cell) with code of this wallet;
-
+UQC53Sk3lkCm0E7kSejCsBk8z9f_Yf4ndp-MNNUjRhG5O0KV
 ## Jetton master contract
 ### Get-methods
 1. `get_jetton_data()` returns `(int total_supply, int mintable, slice admin_address, cell jetton_content, cell jetton_wallet_code)`
