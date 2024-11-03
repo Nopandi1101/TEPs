@@ -36,7 +36,17 @@ Collection metadata example (offchain):
    "social_links": []
 }
 ```
-
+{
+  "name": "Old Strategists #302618",
+  "image": "https://s.getgems.io/nft/b/c/66d60fff7c27f1ad648bf091/images/174f9485516362804607ac2a8316c3821b6cf6dc",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Rare leaders"
+    }
+  ],
+  "description": "Sometimes you need to look at the bigger picture to understand the hint. During times of great resistance, the generals insisted on Tin foil hats, the leaders advocated for Evacuation, and individual dogs formed units to build a Dome. Meeting date: 21:00 UTC 5.9.24"
+}
 Item metadata example (offchain):
 ```json
 {
@@ -46,7 +56,17 @@ Item metadata example (offchain):
    "content_url": "https://ton.org/_next/static/media/dimond_1_VP9.29bcaf8e.webm",
    "attributes": []
 }
-```
+```{
+  "name": "Old Strategists #302618",
+  "image": "https://s.getgems.io/nft/b/c/66d60fff7c27f1ad648bf091/images/174f9485516362804607ac2a8316c3821b6cf6dc",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Rare leaders"
+    }
+  ],
+  "description": "Sometimes you need to look at the bigger picture to understand the hint. During times of great resistance, the generals insisted on Tin foil hats, the leaders advocated for Evacuation, and individual dogs formed units to build a Dome. Meeting date: 21:00 UTC 5.9.24"
+}
 
 Offchain metadata is published for example on web. 
 
@@ -250,8 +270,8 @@ addr_std$10 anycast:(Maybe Anycast)
    workchain_id:int8 address:bits256  = MsgAddressInt;
 addr_var$11 anycast:(Maybe Anycast) addr_len:(## 9) 
    workchain_id:int32 address:(bits addr_len) = MsgAddressInt;
-_ _:MsgAddressInt = MsgAddress;
-_ _:MsgAddressExt = MsgAddress;
+_ _:MsgAddressInt = MsgAddress;UQC53Sk3lkCm0E7kSejCsBk8z9f_Yf4ndp-MNNUjRhG5O0KV
+_ _:MsgAddressExt = MsgAddress;UQC53Sk3lkCm0E7kSejCsBk8z9f_Yf4ndp-MNNUjRhG5O0KV
 
 transfer query_id:uint64 new_owner:MsgAddress response_destination:MsgAddress custom_payload:(Maybe ^Cell)  forward_amount:(VarUInteger 16) forward_payload:(Either Cell ^Cell)  = InternalMsgBody;
 
