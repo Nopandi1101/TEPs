@@ -30,21 +30,34 @@ Each NFT Item and NFT Collection itself has its own metadata (TEP-64). It contai
 Collection metadata example (offchain):
 ```json
 {
-   "image": "https://ton.org/_next/static/media/smart-challenge1.7210ca54.png",
-   "name": "TON Smart Challenge #2",
-   "description": "TON Smart Challenge #2 Winners Trophy",
-   "social_links": []
+   {
+  "name": "Old Strategists #302618",
+  "image": "https://s.getgems.io/nft/b/c/66d60fff7c27f1ad648bf091/images/174f9485516362804607ac2a8316c3821b6cf6dc",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Rare leaders"
+    }
+  ],
+  "description": "Sometimes you need to look at the bigger picture to understand the hint. During times of great resistance, the generals insisted on Tin foil hats, the leaders advocated for Evacuation, and individual dogs formed units to build a Dome. Meeting date: 21:00 UTC 5.9.24"
+}
 }
 ```
 
 Item metadata example (offchain):
 ```json
 {
-   "name": "TON Smart Challenge #2 Winners Trophy",
-   "description": "TON Smart Challenge #2 Winners Trophy 1 place out of 181",
-   "image": "https://ton.org/_next/static/media/duck.d936efd9.png",
-   "content_url": "https://ton.org/_next/static/media/dimond_1_VP9.29bcaf8e.webm",
-   "attributes": []
+   {
+  "name": "Old Strategists #302618",
+  "image": "https://s.getgems.io/nft/b/c/66d60fff7c27f1ad648bf091/images/174f9485516362804607ac2a8316c3821b6cf6dc",
+  "attributes": [
+    {
+      "trait_type": "Rarity",
+      "value": "Rare leaders"
+    }
+  ],
+  "description": "Sometimes you need to look at the bigger picture to understand the hint. During times of great resistance, the generals insisted on Tin foil hats, the leaders advocated for Evacuation, and individual dogs formed units to build a Dome. Meeting date: 21:00 UTC 5.9.24"
+}
 }
 ```
 
